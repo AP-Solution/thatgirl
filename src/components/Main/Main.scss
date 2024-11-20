@@ -1,0 +1,83 @@
+@import '../../styles/main.scss';
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: transparent;
+
+
+    &__title {
+        color: $main-light;
+        font-size: 4vmin;
+        margin: 20px 0;
+    }
+}
+
+.swiper {
+    height: calc(100vh - 150px);
+    border: 2px solid black;
+    &__slide {
+        background-blend-mode: multiply;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-box {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            row-gap: 12px;
+            flex-direction: column;
+            color: $main-light;
+            font-size: 24px;
+            border: 2px solid gold;
+            background-color: rgba(0, 0, 0, 0.24);
+            padding: 20px;
+            transition: transform 0.3s ease-in-out;
+            transform: translateY(100%);
+        }
+
+        &:hover &-box {
+            color: gold;
+            transform: translateY(0);
+        }
+
+        &:first-child {
+            background: url('../../images/park.png') no-repeat 70% 80% / cover;
+            background-color: rgba(0, 0, 0, 0.24);
+            box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.5) inset;
+        }
+        &:nth-child(2) {
+            background: url('../../images/bsns.jpg') no-repeat center 80% / cover;
+            background-color: rgba(0, 0, 0, 0.12);
+            box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.5) inset;
+        }
+        &:nth-child(3) {
+            background: url('../../images/iti.jpg') no-repeat center / cover;
+            box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.24) inset;
+        }
+        &:nth-child(4) {
+            background: url('../../images/vel.jpg') no-repeat center / cover;
+            background-color: rgba(0, 0, 0, 0.12);
+        }
+        &:nth-child(5) {
+            background: url('../../images/pits.jpg') no-repeat center / cover;
+            background-color: rgba(0, 0, 0, 0.12);
+        }
+        &:nth-child(6) {
+            background: url('../../images/ba.jpg') no-repeat 100% / cover;
+            background-color: rgba(0, 0, 0, 0.12);
+        }
+        &:nth-child(7) {
+            background: url('../../images/ches.jpg') no-repeat center 80% / cover;
+            background-color: rgba(0, 0, 0, 0.12);
+        }
+        &:nth-child(8) {
+            background: url('../../images/ofis.jpg') no-repeat center 80% / cover;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    }
+}
