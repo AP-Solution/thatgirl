@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thatgirl/static/css/main.7a69d973.css",
-    "main.js": "/thatgirl/static/js/main.689514d3.js",
+    "main.css": "/thatgirl/static/css/main.b0c9b502.css",
+    "main.js": "/thatgirl/static/js/main.4e1da2b8.js",
     "static/media/park.png": "/thatgirl/static/media/park.d9d473c292023a7bb09d.png",
     "static/media/ofis.jpg": "/thatgirl/static/media/ofis.ea3ea4a817b63978aa68.jpg",
     "static/media/vel.jpg": "/thatgirl/static/media/vel.c13a8ce5a91d21f556b3.jpg",
@@ -11,11 +11,11 @@
     "static/media/iti.jpg": "/thatgirl/static/media/iti.b2607719c3fd373ee115.jpg",
     "static/media/ches.jpg": "/thatgirl/static/media/ches.2377f486064ef4dcf57b.jpg",
     "index.html": "/thatgirl/index.html",
-    "main.7a69d973.css.map": "/thatgirl/static/css/main.7a69d973.css.map",
-    "main.689514d3.js.map": "/thatgirl/static/js/main.689514d3.js.map"
+    "main.b0c9b502.css.map": "/thatgirl/static/css/main.b0c9b502.css.map",
+    "main.4e1da2b8.js.map": "/thatgirl/static/js/main.4e1da2b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a69d973.css",
-    "static/js/main.689514d3.js"
+    "static/css/main.b0c9b502.css",
+    "static/js/main.4e1da2b8.js"
   ]
 }
